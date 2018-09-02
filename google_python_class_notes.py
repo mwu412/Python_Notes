@@ -1,7 +1,11 @@
 """Python Notes by Michael Wu 2018"""
 
+# source:
 # https://developers.google.com/edu/python
 # https://youtu.be/tKTZoB2Vjuk
+
+
+"""Concepts"""
 
 # Python does things in the last moment
 # Python checks the line when it runs the line
@@ -151,10 +155,13 @@ def list_of_directories(directory):
 
 def function_cool_man():
     """
+    Describe the function here yo!
 
-    :param f:
-    :return:
     """
+
+# description of classes and methods works the same way
+# help(module.class)
+# help(module.class.method)
 
 
 # urllib
@@ -172,15 +179,3 @@ urllib.urlretrieve('http://google.com.intl/en_ALL/images/logo.git', 'foo.gif')
 
 a = ['aaaa', 'bb', 'ccccc']
 [len(s) for s in a]  # = [4, 2, 5]
-
-
-
-
-
-
-
-
-
-
-
-
