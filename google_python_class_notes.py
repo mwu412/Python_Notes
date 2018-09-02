@@ -138,7 +138,7 @@ import os
 
 dir(os)  # will show all methods come with os. use them as "os.example"
 
-#
+# cmd
 
 import commands
 
