@@ -91,6 +91,11 @@ a = int(s)
 b = 321
 print(a + b)
 
+# **2
+import math
+print "5^2  = 5 ** 2 = ", 5**2
+print  "5^2 = math.pow(5,2) = ", math.pow(5,2)
+
 
 # How to use class
 
