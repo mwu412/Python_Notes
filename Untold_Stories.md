@@ -26,3 +26,11 @@ Therefore, we must assign it to a new one:
 Python lists are mutable.
 
 The one line `list_a.extend([1, 2, 3])` will modify the python list `list_a`)
+
+## Python List: append() v.s. extend()
+https://stackoverflow.com/questions/252703/difference-between-append-vs-extend-list-methods-in-python
+
+`list_a.extend([0])` will work
+
+`list_a.extend(0)` will fail
+
