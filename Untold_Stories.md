@@ -57,4 +57,4 @@ From [ref](https://stackoverflow.com/questions/17506947/local-variable-reference
 
 Loop over key: `for key in d:`
 
-Loop over both: `for key, value in d.items()`
+Loop over both: `for key, value in d.items():`
