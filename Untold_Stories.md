@@ -53,4 +53,8 @@ From [ref](https://stackoverflow.com/questions/17506947/local-variable-reference
 
 > All variable assignments in a function store the value in the local symbol table; whereas variable references first look in the local symbol table, then in the global symbol table, and then in the table of built-in names. Thus, global variables cannot be directly assigned a value within a function (unless named in a global statement), although they may be referenced.
 
+## Loop Over Both Key and Value of a Dict
 
+Loop over key: `for key in d:`
+
+Loop over both: `for key, value in d.items()`
