@@ -1,4 +1,4 @@
-# Untold Stories of Pandas
+# Untold Stories of Python
 Micheal Wu
 
 ## Can I change the data itself? How?
@@ -15,7 +15,7 @@ trivial but tricky right?
 
 #### What about Numpy array?
 
-(Numpy arrays are immutable)[https://docs.scipy.org/doc/numpy/reference/arrays.scalars.html].
+[Numpy arrays are immutable](https://docs.scipy.org/doc/numpy/reference/arrays.scalars.html).
 
 Therefore, we must assign it to a new one:
 
@@ -33,4 +33,24 @@ https://stackoverflow.com/questions/252703/difference-between-append-vs-extend-l
 `list_a.extend([0])` will work
 
 `list_a.extend(0)` will fail
+
+## Global Variable?
+```
+status = True
+
+def main():
+  if a:
+    status = False
+  if status:
+    pass
+```
+Will return error: *local variable 'status' referenced before assignment*
+
+Note that `main()` is a function.
+
+From [ref](https://stackoverflow.com/questions/17506947/local-variable-referenced-before-assignment-in-python) and 
+[docs](https://docs.python.org/release/1.5.1p1/tut/functions.html):
+
+> All variable assignments in a function store the value in the local symbol table; whereas variable references first look in the local symbol table, then in the global symbol table, and then in the table of built-in names. Thus, global variables cannot be directly assigned a value within a function (unless named in a global statement), although they may be referenced.
+
 
