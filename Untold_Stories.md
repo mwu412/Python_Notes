@@ -35,7 +35,7 @@ https://stackoverflow.com/questions/252703/difference-between-append-vs-extend-l
 `list_a.extend(0)` will fail
 
 ## Global Variable?
-```
+```python
 status = True
 
 def main():
