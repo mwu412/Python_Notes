@@ -1,1 +1,3 @@
-# python_learning_notes
+# Python_Notes
+- Learning Notes
+- Python Setup
