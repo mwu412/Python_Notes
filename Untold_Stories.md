@@ -70,6 +70,6 @@ numpy.array([[0, 0, 0]])
 ```
 or
 ```python
-np.array([0, 0, 0], ndmin=2)
+numpy.array([0, 0, 0], ndmin=2)
 ```
 is a 1x4 two-dimensional array.
