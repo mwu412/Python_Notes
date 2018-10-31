@@ -51,10 +51,25 @@ Note that `main()` is a function.
 From [ref](https://stackoverflow.com/questions/17506947/local-variable-referenced-before-assignment-in-python) and 
 [docs](https://docs.python.org/release/1.5.1p1/tut/functions.html):
 
-> All variable assignments in a function store the value in the local symbol table; whereas variable references first look in the local symbol table, then in the global symbol table, and then in the table of built-in names. Thus, global variables cannot be directly assigned a value within a function (unless named in a global statement), although they may be referenced.
+> All variabale assignments in a function store the value in the local symbol table; whereas variable references first look in the local symbol table, then in the global symbol table, and then in the table of built-in names. Thus, global variables cannot be directly assigned a value within a function (unless named in a global statement), although they may be referenced.
 
 ## Loop Over Both Key and Value of a Dict
 
 Loop over key: `for key in d:`
 
 Loop over both: `for key, value in d.items():`
+
+#### Dimension of numpy.array
+```python
+numpy.array([0, 0, 0])
+```
+This is a 4 elements one dimension array.
+However,
+```python
+numpy.array([[0, 0, 0]])
+```
+or
+```python
+np.array([0, 0, 0], ndmin=2)
+```
+is a 1x4 two-dimensional array.
