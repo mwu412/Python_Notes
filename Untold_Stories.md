@@ -53,6 +53,8 @@ From [ref](https://stackoverflow.com/questions/17506947/local-variable-reference
 
 > All variabale assignments in a function store the value in the local symbol table; whereas variable references first look in the local symbol table, then in the global symbol table, and then in the table of built-in names. Thus, global variables cannot be directly assigned a value within a function (unless named in a global statement), although they may be referenced.
 
+If a variable is declared in the global scope but we want to access it in a local scope, we should add a line `global myvar` before accessing it.
+
 ## Loop Over Both Key and Value of a Dict
 
 Loop over key: `for key in d:`
